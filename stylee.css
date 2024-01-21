@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    background: url(back6.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 125vh;
+    position: relative;
+    font-family: sans-serif;
+} 
+.logo {
+    font-size: 50px;
+    font-style: arial;
+    color: rgb(13, 55, 206);
+}
+.logo span{
+    color: aliceblue;
+}
+nav{
+    display:flex;
+    width: 84%;
+    margin:auto;
+    padding:20px 0;
+    align-items: left;
+    justify-content:space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+   color:#efe3ed;
+   font-weight: bold; 
+}
+nav ul li a:hover{
+    color:palevioletred
+}
+.detel{
+    max-width: 500px;
+    margin-left: 8%;
+    margin-top: 15%;
+    padding: 10px 0 250px 0;
+}
+.detel h1{
+    font-size: 50px;
+    color:rgb(251, 249, 251);
+    margin-bottom: 20px;
+}
+.detel span{
+    color:rgb(235, 224, 14)
+}
+.detel h2{
+    color:#ec0101;
+}
+.detel p{
+    padding: 10px 0 30px 0;
+    font-style: oblique;
+    color: beige;
+    line-height: 20px;
+}
+.hero span{
+    color:blue
+} 
+.content{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    color: azure;
+} 
+.detel a{
+    background-color: #2eafde;
+    padding:10px;
+    border:none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.detel:hover a{
+    color: #f3b016;
+}
+
+.image{
+    
+    width: 40%;
+    height: 80%;
+    position:absolute;
+    bottom: 0%;
+    right: 100px;
+    
+}
+
+.image img{
+    position: absolute;
+    height: 100%;
+    left: 60%;
+    bottom: 0%;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.image:hover .sp2{
+   
+    bottom: 40px;
+}
+.image:hover .razz{
+    left:45%;
+}
+
+.social{
+    padding-left: 50px;
+    position:relative;
+    display: contents;
+    width: 50px;
+}
+.social a{
+    text-decoration: none;
+    color: #ec0101;
+    padding: 10px 16px;
+}
+.social i{
+    width:10px;
+}
+.social i:hover{
+    color: gold;
+}
